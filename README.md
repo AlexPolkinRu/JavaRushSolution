@@ -1,5 +1,5 @@
 # Мои решения задач на [JavaRush](https://javarush.ru/)
-Выложены далеко не все.
+Выложено далеко не все.
 Пополняется...
-
-[Мой профиль на JavaRush](https://javarush.ru/users/2220288)
+![JavaRush](https://javarush.ru/assets/images/site/logo/sidebar-jr-logo.svg)
+[Мой профиль](https://javarush.ru/users/2220288)
