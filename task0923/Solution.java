@@ -14,12 +14,26 @@ public class Solution {
 
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
-        try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
-            String str = reader.readLine();
-        }
-        catch (Exception e){
+        StringBuilder sb = new StringBuilder();
+        String str;
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
+            str = reader.readLine();
+            char ch;
+            for (int i = 0; i < str.length(); i++) {
+                ch = str.charAt(i);
+                if (isVowel(ch)) {
+                    System.out.print(ch + " ");
+                } else {
+                    if (ch != ' ')
+                        sb.append(ch + " ");
+                }
+            }
+            System.out.println();
+            System.out.println(sb);
+        } catch (Exception e) {
             e.printStackTrace();
         }
+
 
     }
 
